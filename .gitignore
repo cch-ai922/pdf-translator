@@ -1,11 +1,10 @@
-# Build outputs
-build_msys2/
+# Build outputs (intermediate only – final deploy is committed)
 PDFTranEngine/build/
 PDFTranEngine/dist/
 PDFTranEngine/__pycache__/
 PDFTranEngine/*.spec
 
-# Downloaded deps (large binaries)
+# Third-party downloads (large, not committed — rebuild with build_windows_msys2.bat)
 deps/
 
 # PyInstaller working dirs

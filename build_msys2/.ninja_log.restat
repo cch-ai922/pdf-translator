@@ -1,0 +1,10 @@
+# ninja log v7
+6	749	8040909821472926	PDFTranView_autogen/timestamp	b07cb0ae5d0542c4
+6	749	8040909821472926	PDFTranView_autogen/mocs_compilation.cpp	b07cb0ae5d0542c4
+6	749	8040909821472926	D:/dev_cch/KGH_works/pdf-translator/build_msys2/PDFTranView_autogen/timestamp	b07cb0ae5d0542c4
+6	749	8040909821472926	D:/dev_cch/KGH_works/pdf-translator/build_msys2/PDFTranView_autogen/mocs_compilation.cpp	b07cb0ae5d0542c4
+5649	6475	8040909561027274	CMakeFiles/PDFTranView.dir/main.cpp.obj	bf1cbcc00dd3aace
+5645	6524	8040909560884410	CMakeFiles/PDFTranView.dir/PDFTranView_autogen/mocs_compilation.cpp.obj	7b4130cc4536bcea
+5660	6546	8040909561149227	CMakeFiles/PDFTranView.dir/pdfdocument.cpp.obj	6d30c0ed096c6d3b
+5653	7028	8040909561079270	CMakeFiles/PDFTranView.dir/mainwindow.cpp.obj	f8c79550ad403cbf
+750	1598	8040909828912476	CMakeFiles/PDFTranView.dir/pdfview.cpp.obj	f41fb9464a84338

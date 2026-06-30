@@ -1,0 +1,6 @@
+build_msys2/PDFTranEngine.exe filter=lfs diff=lfs merge=lfs -text
+build_msys2/libmupdf.dll filter=lfs diff=lfs merge=lfs -text
+build_msys2/libicudt78.dll filter=lfs diff=lfs merge=lfs -text
+build_msys2/Qt5Gui.dll filter=lfs diff=lfs merge=lfs -text
+build_msys2/Qt5Widgets.dll filter=lfs diff=lfs merge=lfs -text
+build_msys2/Qt5Core.dll filter=lfs diff=lfs merge=lfs -text
