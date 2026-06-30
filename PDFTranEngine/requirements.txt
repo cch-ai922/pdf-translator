@@ -1,0 +1,24 @@
+# Core PDF-to-DOCX (text-based PDFs)
+pdf2docx>=0.5.6
+
+# PDF page inspection (text vs image detection)
+pdfplumber>=0.9.0
+
+# OCR pipeline (image-based / scanned PDFs)
+pdf2image>=1.16.0      # needs poppler utilities on PATH
+pytesseract>=0.3.10    # needs Tesseract-OCR installed separately
+Pillow>=9.0.0
+
+# DOCX construction (OCR branch)
+python-docx>=0.8.11
+
+# DOCX → PDF (pure Python, no admin rights, no external tools)
+mammoth>=1.6.0         # DOCX → HTML
+weasyprint>=60.0       # HTML → PDF  (needs no external tools on Windows)
+
+# Packaging to .exe
+pyinstaller>=6.0
+
+# Optional fallback: LibreOffice headless
+# Install manually from https://www.libreoffice.org/ if you want
+# higher-fidelity layout in DOCX→PDF (requires admin on Windows).

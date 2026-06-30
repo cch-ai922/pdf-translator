@@ -1,0 +1,27 @@
+# Build outputs
+build_msys2/
+PDFTranEngine/build/
+PDFTranEngine/dist/
+PDFTranEngine/__pycache__/
+PDFTranEngine/*.spec
+
+# Downloaded deps (large binaries)
+deps/
+
+# PyInstaller working dirs
+*.pyc
+*.pyo
+__pycache__/
+
+# Qt/CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+*.ninja
+*_autogen/
+Makefile
+
+# OS
+.DS_Store
+Thumbs.db

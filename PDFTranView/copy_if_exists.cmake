@@ -1,0 +1,6 @@
+if(EXISTS "${SRC}")
+    file(COPY_FILE "${SRC}" "${DST}" ONLY_IF_DIFFERENT)
+    message(STATUS "Copied PDFTranEngine.exe to build dir")
+else()
+    message(STATUS "PDFTranEngine.exe not found at ${SRC} — skipping copy")
+endif()
